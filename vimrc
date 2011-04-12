@@ -8,7 +8,7 @@ set tabstop=4
 set encoding=utf-8
 set wrap
 set textwidth=79
-set autochdir
+"set autochdir
 
 set hidden
 set showcmd                       " Display incomplete commands.

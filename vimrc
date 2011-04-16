@@ -1,4 +1,7 @@
-colorscheme vividchalk
+"colorscheme vividchalk
+"colorscheme mustang
+"colorscheme ir_black
+syntax enable
 
 set hlsearch
 set incsearch
@@ -28,6 +31,6 @@ nnoremap k gk
 
 " Needed on some linux distros.
 " see http://www.adamlowe.me/2009/12/vim-destroys-all-other-rails-editors.html
-filetype off 
+" filetype off 
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()

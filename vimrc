@@ -31,6 +31,8 @@ autocmd VimEnter * wincmd p
 nnoremap j gj
 nnoremap k gk
 
+map <F2> :NERDTreeToggle<CR>
+
 " Needed on some linux distros.
 " see http://www.adamlowe.me/2009/12/vim-destroys-all-other-rails-editors.html
 " filetype off 

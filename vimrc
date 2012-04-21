@@ -3,11 +3,15 @@ colorscheme vividchalk
 "colorscheme ir_black
 syntax enable
 
+
+set expandtab "spaces for tabs
+set autoread "for coffeescript demo (autorefresh)
+
 set hlsearch
 set incsearch
 set number
-set softtabstop=4
-set tabstop=4
+set softtabstop=2
+set tabstop=2
 set encoding=utf-8
 set wrap
 set textwidth=79
@@ -24,7 +28,7 @@ set laststatus=2                  " Show the status line all the time
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
-autocmd VimEnter * NERDTree
+" autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
 " j/k should go up/down through VISIBLE lines, even if real lines wrap.

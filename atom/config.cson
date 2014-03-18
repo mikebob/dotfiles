@@ -1,0 +1,21 @@
+'editor':
+  'fontSize': 18
+  'tabLength': 4
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'atom-dark-syntax'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+'exception-reporting':
+  'userId': '011977cb-8313-13b1-468c-0d2927d6b178'
+'release-notes':
+  'viewedVersion': '0.73.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '2642213cda8f66f0ac57a7e779bdd3a6a8f73040'
